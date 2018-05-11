@@ -1,6 +1,7 @@
 # PageScrollSample
 横スクロールのUI
 
-![ScrollView](https://imgur.com/a/qNkHvhA)
+![ScrollView](https://i.imgur.com/DpUw3Ny.png)
 
-![PageControll](https://imgur.com/a/GCxtdFv)
+![PageControll](https://i.imgur.com/UaBuAPT.png)
+
