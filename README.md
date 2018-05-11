@@ -1,6 +1,6 @@
 # PageScrollSample
 横スクロールのUI
 
-![ScrollView](https://www.iloveimg.com/ja/download/fqwcb3rr7dj40vsmyd2qzhf0qbhzyhj0A4qs2m78vctjy8cxfbxb98px333xnk1j89fs1pzw0t0jsztnbwg0A2n4q58yvn5jb691f0d2r0ww4tg9grysl8hxs53fmyvcwjrr5z4cwkhp02z588mwtm305zywf94bjrqwq6yc1qtqttsn8wvq)
+![ScrollView](https://imgur.com/a/qNkHvhA)
 
-![PageControll](https://www.iloveimg.com/ja/download/rx1kqdt1sm1912h3AkxAt7lm5phnwgqng5x2y4dAz2yxzAdzgj05z2kf27mvbzgcdmp38xqkhs5sn4fk48fzbrq72x0znktgptx330nz018cfnn1rv5Aq75447xx06d3rbh8hkzw35dvgn7s19bcryxg19mxzy8mmqqk21hvAc5A4fx0cxt1)
+![PageControll](https://imgur.com/a/GCxtdFv)
