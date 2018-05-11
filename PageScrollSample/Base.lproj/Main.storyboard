@@ -18,28 +18,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="h8b-mS-hOs">
-                                <rect key="frame" x="0.0" y="630" width="375" height="37"/>
-                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </pageControl>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IyQ-ov-YbY">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="630"/>
+                            <scrollView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IyQ-ov-YbY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="503"/>
                             </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="B3Y-x1-uw1">
+                                <rect key="frame" x="0.0" y="620" width="375" height="37"/>
+                                <color key="pageIndicatorTintColor" red="0.82427823600000005" green="0.82427823600000005" blue="0.82427823600000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="h8b-mS-hOs" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="82u-UM-yzf"/>
-                            <constraint firstItem="h8b-mS-hOs" firstAttribute="top" secondItem="IyQ-ov-YbY" secondAttribute="bottom" id="EVz-27-kzV"/>
-                            <constraint firstItem="h8b-mS-hOs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="WSi-Eg-Is7"/>
-                            <constraint firstItem="IyQ-ov-YbY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="clZ-dA-yzj"/>
-                            <constraint firstItem="IyQ-ov-YbY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="e0Y-iP-Qzo"/>
-                            <constraint firstItem="IyQ-ov-YbY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ebH-Zj-maG"/>
-                            <constraint firstItem="h8b-mS-hOs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="n2O-6p-W3h"/>
+                            <constraint firstItem="IyQ-ov-YbY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7S9-Ym-sRX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B3Y-x1-uw1" secondAttribute="trailing" id="b8C-AA-9FT"/>
+                            <constraint firstItem="IyQ-ov-YbY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cKx-zf-uVu"/>
+                            <constraint firstItem="B3Y-x1-uw1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eb9-ih-w9V"/>
+                            <constraint firstItem="IyQ-ov-YbY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gzw-71-Wbn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IyQ-ov-YbY" secondAttribute="bottom" id="nK1-0t-IEg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="B3Y-x1-uw1" secondAttribute="bottom" constant="10" id="wdz-x4-wN9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="pageControl" destination="h8b-mS-hOs" id="9Be-kX-1r6"/>
+                        <outlet property="pageControl" destination="B3Y-x1-uw1" id="fCl-uV-2kc"/>
                         <outlet property="scrollView" destination="IyQ-ov-YbY" id="Boc-xT-q23"/>
                     </connections>
                 </viewController>

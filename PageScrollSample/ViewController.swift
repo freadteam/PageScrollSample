@@ -3,6 +3,10 @@
  UIScrollViewの内容領域 = scrollView.contentSize
  表示領域は内容領域が見える範囲
  内容領域はスクロールして見える領域
+ 
+ 
+ scrollviewの制約を上下左右0にする。（storyboardでは小さくする）
+ viewの上にpagecontrolを置いて下左右の制約を０にする
  */
 
 /*
